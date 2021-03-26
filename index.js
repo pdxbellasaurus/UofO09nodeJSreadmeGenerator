@@ -77,7 +77,6 @@ const questions = [
 // Function to write README file
 function writeToFile(fileName, data) {
     console.log(fileName);
-    console.log(data);
         fs.writeFile(fileName, data, (err) =>
     err ? console.error(err) : console.log('Your README has been created!'));
     }
@@ -88,7 +87,6 @@ function writeToFile(fileName, data) {
             inquirer.prompt(questions)
             .then (function(data) {
             writeToFile('./generated-md/README.md', generateMarkdown(data));
-            console.log(data);
         })
     }
 
