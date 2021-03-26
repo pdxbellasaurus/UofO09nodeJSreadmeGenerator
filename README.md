@@ -22,11 +22,12 @@ node index.js
 ```
 
 The following is an image of the appearance of the command-line application:
+
 <img src="./assets/appui.PNG" alt="" width="300">
 
 The following is a walkthrough video that demonstrates the functionality of the application:
 
-[Walkthrough Video](./assets/walkthrough.mp4)
+[Walkthrough Video](https://user-images.githubusercontent.com/74746211/112606426-9d355280-8dd5-11eb-8562-b18d9a6f4f8b.mp4)
 
 The following is a sample README generated using the application code:
 
@@ -34,5 +35,7 @@ The following is a sample README generated using the application code:
 
 ---------------------------------
 UofO09nodeJSreadmeGenerator
+
 Week 09 Homework - Node.js Professional README Generator
+
 © 2021 PDXbellasaurus :sauropod: 
